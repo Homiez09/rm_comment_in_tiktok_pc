@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "tiktok_full",
+    "action": {},
+    "version": "1.0",
+    "description": "Add the reading time to Chrome Extension documentation articles",
+    "permissions": [
+        "activeTab",
+        "scripting"
+    ],
+    "background": {
+        "service_worker": "service-worker.js"
+    },
+    "host_permissions": [
+        "https://www.tiktok.com/*"
+    ]
+}
